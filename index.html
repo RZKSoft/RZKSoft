@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RZK Soft website</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header>
+        <h1 id="mainName">RZK Soft</h1>
+
+
+        
+        
+
+
+
+
+
+
+
+        <nav>
+            <button data-translate="homePage" class="headerButton" onclick="location.href='#Home'">Home</button>
+            <button data-translate="aboutUsPage" class="headerButton" onclick="location.href='#About'">About Us</button>
+            <button data-translate="servicesPage" class="headerButton" onclick="location.href='#Services'">Services</button>
+
+            <button id="switch-lang" class="headerButton language">
+                <img class="imgmobinv" data-translate="languageImage" src="./images/enLang.png" alt="English">
+                <span data-translate="languageTitle">English</span>
+                <img class="imgmobinv" src="./images/arrow_drop_down.png" alt="Dropdown arrow">
+            </button>
+
+            <div id="language-menu" class="language-menu">
+                <div class="lang-option" data-lang="en">
+                    <img src="./images/enLang.png" alt="English">
+                    <span>English</span>
+                </div>
+                <div class="lang-option" data-lang="uk">
+                    <img src="./images/ukrLang.png" alt="Українська">
+                    <span>Українська</span>
+                </div>
+                <div class="lang-option" data-lang="es">
+                    <img src="./images/spLang.png" alt="Español">
+                    <span>Español</span>
+                </div>
+                <div class="lang-option" data-lang="de">
+                    <img src="./images/gerLang.png" alt="Deutsch">
+                    <span>Deutsch</span>
+                </div>
+                <div class="lang-option" data-lang="nl">
+                    <img src="./images/nethLang.png" alt="Nederlands">
+                    <span>Nederlands</span>
+                </div>
+            </div>     
+
+            <div id="menuToggle">
+                <img id="menuIcon" src="./images/menu.png" alt="Menu Icon">
+            </div>
+            <div id="sidePanel">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+            
+
+
+
+            <button data-translate="contactPage" class="headerButton" onclick="location.href='#Contact'">Contact</button>
+        </nav>
+  </header>
+<section id="Home"></section>
+  <div class="BBC">
+    <p  data-translate="freePart" class="Free">
+        Freelance Software
+      <br>
+        Development & Design
+    </p>
+    <p data-translate="weArePart" class="weAre">
+        We are RZK Soft, a team of skilled programmers and
+        designers ready to deliver top-notch solution
+    </p>
+    <button data-translate="hireUsPart" onclick="location.href= 'https://mail.google.com/mail/?view=cm&fs=1&to=rinzunakasoftofficial@gmail.com&su=Project Inquiry&body=Hi, my name is ____.%0D%0AWe’d like to discuss a potential project with your company.%0D%0APlease let us know how to proceed.'" id="hireUsButton" class="hire">Hire us</button>
+  </div>
+
+  
+    <div id="body">
+      <section id="About" ></section>
+        <div  id="firstPartOfBody">
+            <h2 data-translate="aboutUsPage" id="aboutus">About Us</h2>
+            <h4 data-translate="firstPartOfBodySecondaryTextPage" id="firstPartOfBodySecondaryText">Our company specialized in providing high-quality software development and design services. With experience across various domains and technologies, we are well-equipped to tackle a wide range of freelance projects. </h4>
+        </div>
+
+
+  <section id="Services"></section>
+          <div id="secondPartOfBody">
+            <h2 data-translate="ourServicespage" id="ourservices">Our Services</h2>
+            <ul>
+                <li class="secondPartOfBodyLis">
+                <div id="webDevelopmentText">&lt;/&gt;</div>
+                <h5 data-translate="webDevelopmentPage">Web Development</h5>
+            </li>
+            <li class="secondPartOfBodyLis">
+
+<img id="uiuxb" class="secondPartOfBodyIMG" src="./images/edit.png" alt="">
+                <h5 data-translate="designPage">UI/UX Desigh</h5>
+            </li>
+            <li class="secondPartOfBodyLis">
+                <img id="mdb" class="secondPartOfBodyIMG" src="./images/mobile.png" alt="">
+                <h5 id="specialIdForh5" data-translate="mobilePage">Mobile Development</h5>
+            </li>
+            <li class="secondPartOfBodyLis">
+                <img id="brandingb" class="secondPartOfBodyIMG" src="./images/lightbulb.png" alt="">
+                <h5 data-translate="brandingPage">Branding</h5>
+            </li>
+            </ul>
+        </div>
+
+    </div>
+  
+<section id="Contact"></section>
+    <footer>
+            <li class="footerLis">+38 066 585 5988</li>
+            <li class="footerLis">rinzunakasoftofficial@gmail.com</li>
+            <li class="footerLis">Rinzunaka_Misha(inst)</li>
+    </footer>
+
+
+
+    <script src="./scripte.js"></script>
+</body>
+</html>
